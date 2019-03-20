@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+
+    <ImageButton
+        android:id="@+id/ib_ac_main_user_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        />
+
+        <EditText
+            android:id="@+id/et_ac_main_user_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your email"
+            />
+
+        <EditText
+            android:id="@+id/et_ac_main_user_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your password"
+            />
+
+        <EditText
+            android:id="@+id/et_ac_main_user_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter a username"
+            />
+
+        <EditText
+            android:id="@+id/et_ac_main_user_full_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your full_name"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select your gender"
+            />
+
+        <RadioGroup
+            android:id="@+id/rg_ac_acc_setup_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/rb_ac_main_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textSize="18sp"
+
+                />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/rb_ac_main_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:textSize="18sp"
+                />
+
+
+        </RadioGroup>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please select a category from below."
+            />
+        <Spinner
+            android:id="@+id/spinner_ac_main_categories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+
+        </Spinner>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+
+        </Spinner>
+
+
+
+        <Button
+            android:id="@+id/btn_ac_main_submit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>
